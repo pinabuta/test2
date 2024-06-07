@@ -25,3 +25,6 @@ joke_categories = categories_list.get_categories_joke()
 for i,category in enumerate(joke_categories):
     joke = categories_list.get_category_joke(category)
     print(f'Joke number {i+1} (category - {category}) - {joke.get("value")}')
+
+
+print("fuck")

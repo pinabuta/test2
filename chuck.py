@@ -14,8 +14,9 @@ print('Статус-код корректен')
 check_joke = result.json()     # cохраняем в переменную тело нашего ответа в формате JSON
 joke_value = check_joke.get("name")     # если пишем название параметра внутри метода .get можем получить содержимое
 print(joke_value)
-#####
+#####g
 check_joke = result.json()
 joke_value = check_joke.get("value")
 print(joke_value)
+print("Тест прошел успешно")
 print("Тест прошел успешно")
